@@ -93,3 +93,15 @@ Local
 
 # .DS_Store
 .DS_Store
+
+
+#run codes
+test_results (1).gsheet
+test_results.csv
+test_results.gsheet
+checkpoint.pth.tar
+model_best.pth.tar
+
+#google drive
+.tmp.drivedownload
+.tmp.driveupload
