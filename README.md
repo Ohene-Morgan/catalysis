@@ -1,4 +1,19 @@
-# Crystal Graph Convolutional Neural Networks
+# Catalysis: MOF property-prediction experiments (built on CGCNN)
+
+Undergraduate research notebooks from 2022 (Computational Catalysis Group, KNUST) exploring machine learning on metal-organic framework (MOF) data.
+
+## What is mine, and what is not
+
+- **Not mine:** the CGCNN package (`cgcnn/`, `main.py`, `predict.py`, `pre-trained/`, `data/`) is the Crystal Graph Convolutional Neural Network code by Tian Xie and Jeffrey C. Grossman, kept here as the base for the experiments. See the original README below, the paper it cites, and the MIT licence in `LICENSE`. Credit for that code belongs to its authors and contributors.
+- **Mine:** the two notebooks, `mofss.ipynb` and `MOF's pro.ipynb`, and the MOF data I used with them (`qmof.csv`, from the QMOF database). They explore a tabular-to-image approach: exploratory data analysis of MOF properties, an 80:20 train/test split with min-max scaling, conversion of the tables to images with DeepInsight and IGTD, and a Keras convolutional neural network trained on those images.
+
+These notebooks are exploratory and unpolished (Colab-style, with install cells and no final reported results). They are kept as a record of early work, not as a finished model.
+
+---
+
+# Original CGCNN README
+
+## Crystal Graph Convolutional Neural Networks
 
 This software package implements the Crystal Graph Convolutional Neural Networks (CGCNN) that takes an arbitary crystal structure to predict material properties. 
 
